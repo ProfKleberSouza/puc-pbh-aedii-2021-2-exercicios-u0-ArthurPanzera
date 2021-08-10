@@ -2,9 +2,10 @@
 
 int main()
 {
-    float nota, n1, n2, n3, n4;
+    int n1, n2, n3, n4;
+    float nota;
 
-    scanf("%f %f %f %f", &n1, &n2, &n3, &n4);
+    scanf("%d %d %d %d", &n1, &n2, &n3, &n4);
 
     nota = (n1 + n2 + n3 + n4)/4.0;
 
