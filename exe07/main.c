@@ -19,6 +19,7 @@ int main()
             menor = NUM;
     }
 
+    printf("\n");
     printf("\nMENOR = %d", menor);
     printf("\nMAIOR = %d", maior);
 
