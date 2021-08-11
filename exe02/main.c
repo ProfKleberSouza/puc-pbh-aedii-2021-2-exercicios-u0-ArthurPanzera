@@ -5,13 +5,13 @@ int main()
     int  V, R;
     float T, D, L;
 
-    printf("Tempo gasto : ");
+    
     scanf("%f", &T);
 
-    printf("Velocidade media : ");
+    
     scanf("%d", &V);
 
-    printf("Rendimento medio KM/L : ");
+    
     scanf("%d", &R);
 
     D = T * V;
