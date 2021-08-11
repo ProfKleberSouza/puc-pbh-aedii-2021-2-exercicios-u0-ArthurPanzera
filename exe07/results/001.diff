@@ -1,3 +1,10 @@
-0a1,2
-> Digite o valor de N : 
-> Digite 6 numeros inteiros : Digite 6 numeros inteiros : Digite 6 numeros inteiros : Digite 6 numeros inteiros : Digite 6 numeros inteiros : Digite 6 numeros inteiros : 
+1,2c1,4
+< MENOR = 1
+< MAIOR = 8
+\ No newline at end of file
+---
+> 
+> 
+> MENOR = 0
+> MAIOR = 4
+\ No newline at end of file
