@@ -1,8 +1,27 @@
 #include <stdio.h>
 
-int main() {
-   int n1;
-   scanf("%i %i", &n1);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+int main()
+{
+
+    int numero;
+
+    do{
+
+        scanf("\n%d", &numero);
+
+        if (numero > 0){
+            printf("\nPOSITIVO");
+        }
+
+        if (numero < 0){
+            printf("\nNEGATIVO");
+        }
+
+    }while(numero!=0);
+
+
+
+
+
+    return 0;
 }
