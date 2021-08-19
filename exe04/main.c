@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a, b, c, menor, maior;
+    int a, b, c, d, menor, maior;
     scanf("%d %d %d", &a, &b, &c);
 
     if (a < b){
