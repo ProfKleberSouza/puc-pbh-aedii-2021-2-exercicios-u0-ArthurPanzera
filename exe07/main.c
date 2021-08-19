@@ -2,27 +2,30 @@
 
 int main()
 {
-    int N, NUM, maior = 0, menor = 0 , soma;
+  int n, num, maior = 0, menor = 0;
 
-    scanf("%d", &N);
+  scanf("%d", &n);
 
-    printf("\n");
+  for(int i=1;i<=n;i++){
+    scanf("%d", &num);
 
-    for(int i = 0;i < N;i ++){
-
-        scanf("%d", &NUM);
-
-        if(NUM > maior)
-            maior = NUM;
-
-        if (NUM < menor)
-            menor = NUM;
+    if (i == 1){
+      maior = num;
+      menor = num;
+    }else{
+      if (num > maior){
+        maior = num;
+      }else{
+        if (num < menor){
+          menor = num;
+        }
+      }
     }
 
-    printf("\n");
-    printf("\nMENOR = %d", menor);
-    printf("\nMAIOR = %d", maior);
+  }
 
+  printf("\nMENOR = %d", menor);
+  printf("\nMAIOR = %d", maior);
 
     return 0;
 }
